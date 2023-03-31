@@ -99,7 +99,7 @@ header .image .header-bottom .form .form-bottom a {
 }
 
 .container {
-  width: 80%;
+  width: 65%;
   margin: 0 auto;
 }
 
@@ -271,6 +271,104 @@ header .image .header-bottom .form .form-bottom a {
   background-size: cover;
   background-position: center center;
 }
+#site-section-3 .bck-image .section-3 {
+  width: 100%;
+  height: 540px;
+  padding: 100px 0px;
+}
+#site-section-3 .bck-image .section-3 .section-3-top {
+  text-align: center;
+}
+#site-section-3 .bck-image .section-3 .section-3-top h2 {
+  font-size: 32px;
+  color: white;
+  font-weight: 400;
+}
+#site-section-3 .bck-image .section-3 .section-3-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+#site-section-3 .bck-image .section-3 .section-3-bottom .service {
+  width: 379px;
+  height: 206px;
+  margin-top: 50px;
+}
+#site-section-3 .bck-image .section-3 .section-3-bottom .service .car {
+  width: 90px;
+  height: 90x;
+  background-color: white;
+  text-align: center;
+  border-radius: 50%;
+  border: 3px solid #007bff;
+  margin-left: 150px;
+  margin-bottom: 20px;
+}
+#site-section-3 .bck-image .section-3 .section-3-bottom .service .car i {
+  padding: 20px 20px;
+  color: black;
+  font-size: 40px;
+}
+#site-section-3 .bck-image .section-3 .section-3-bottom .service .repair {
+  text-align: center;
+}
+#site-section-3 .bck-image .section-3 .section-3-bottom .service .repair h3, #site-section-3 .bck-image .section-3 .section-3-bottom .service .repair p {
+  color: white;
+}
+#site-section-3 .bck-image .section-3 .section-3-bottom .service .repair p {
+  word-spacing: 3px;
+  line-height: 1.5;
+}
+
+#site-section-4 {
+  width: 100%;
+  height: 540px;
+  padding: 100px 0px;
+  background-color: white;
+}
+#site-section-4 .section-4 .section-4-info {
+  text-align: center;
+  height: 117px;
+}
+#site-section-4 .section-4 .section-4-info h2 {
+  font-size: 32px;
+  font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #364d59;
+  font-weight: 400;
+  margin: 0px 0px 8px;
+}
+#site-section-4 .section-4 .section-4-info p {
+  font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #364d59;
+}
+#site-section-4 .section-4 .step {
+  margin-top: 30px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+#site-section-4 .section-4 .step .number {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  border-radius: 50%;
+  border: 3px solid #007bff;
+  padding-top: 5px;
+  z-index: 2;
+}
+#site-section-4 .section-4 .step .number span {
+  font-size: 21px;
+  color: #007bff;
+}
+#site-section-4 .section-4 .step::after {
+  width: 100%;
+  height: 4px;
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 25px;
+  background: #007bff;
+}
 
 #site-section-5 {
   width: 100%;
@@ -281,8 +379,6 @@ header .image .header-bottom .form .form-bottom a {
 #site-section-5 .section-5 .section-5-info {
   text-align: center;
   height: 117px;
-  width: 50%;
-  margin-left: 260px;
 }
 #site-section-5 .section-5 .section-5-info h2 {
   font-size: 32px;
@@ -374,8 +470,10 @@ header .image .header-bottom .form .form-bottom a {
   }
   #site-section-2 {
     padding: 30px 0px;
+    width: 100%;
   }
   #site-section-2 .offer {
+    width: 100%;
     display: block;
   }
   #site-section-2 .offer .offer-info {
@@ -428,7 +526,7 @@ header .image .header-bottom .form .form-bottom a {
     margin-bottom: 50px;
   }
   #site-section-5 .container {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
   }
 }/*# sourceMappingURL=style.css.map */
